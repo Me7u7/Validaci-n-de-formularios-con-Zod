@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Validación con Zod</title>
+<script src="https://cdn.jsdelivr.net/npm/zod@3.21.4/lib/index.umd.min.js"></script>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<center>
+<form id="registerForm" novalidate>
+    <h1>Crea una cuenta</h1>
+    <label for="name">Nombre:</label><br />
+    <input type="text" id="name" placeholder="Tu nombre" required />
+    <div id="nameError" class="error"></div>
+
+    <label for="email">Correo Electrónico:</label><br />
+    <input type="email" id="email" placeholder="Tu correo" required />
+    <div id="emailError" class="error"></div>
+
+    <label for="password">Contraseña:</label><br />
+    <input type="password" id="password" placeholder="Contraseña" required />
+    <div id="passwordError" class="error"></div>
+
+    <button type="submit">Registrar</button>
+    <p>*Activa las ventanas emergenetes*</p>
+</form>
+
+<script src="script.js"></script>
+</center>
+</body>
+</html>
