@@ -1,0 +1,59 @@
+body {
+background-image: url('https://images.squarespace-cdn.com/content/v1/647650c1f4365813e5642b3f/9df98b2b-5a36-4f42-90a2-46061b81c06a/Myrth_GlazeDevelopmentBlog_29MAR2021-20.jpg');
+background-size: cover;     
+background-position: center;  
+background-repeat: no-repeat;  
+background-attachment: fixed;  
+height: 100vh;          
+color: #333;
+margin: 0;
+padding: 2rem;
+font-family: "Fugaz One", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+#registerForm {
+background-color: #fff;
+padding: 30px 40px;
+border-radius: 12px;
+box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+width: 100%;
+max-width: 400px;
+}
+
+h1 {
+text-align: center;
+margin-bottom: 20px;
+}
+
+input {
+width: 100%;
+padding: 8px;
+margin: 5px 0 10px;
+box-sizing: border-box;
+border: 1px solid #ccc;
+border-radius: 6px;
+}
+
+button {
+width: 100%;
+padding: 10px;
+background-color: #4caf50;
+color: white;
+border: none;
+border-radius: 6px;
+font-size: 16px;
+cursor: pointer;
+margin-top: 10px;
+}
+
+button:hover {
+background-color: #45a049;
+}
+
+.error {
+color: red;
+font-size: 0.85em;
+margin-bottom: 5px;
+}
